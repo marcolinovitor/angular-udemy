@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ShoppingCartService } from '../restaurant-detail/shopping-cart/shopping-cart.service';
 import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 import { NotificationsService } from './messages/notifications.service';
+import { LoginService } from '../security/login/login.service';
 
 @NgModule({
   imports: [
@@ -40,7 +41,8 @@ export class SharedModule {
         ShoppingCartService,
         RestaurantsService,
         OrderService,
-        NotificationsService
+        NotificationsService,
+        LoginService
       ]
     }
   }

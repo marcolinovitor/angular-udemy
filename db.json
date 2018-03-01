@@ -480,6 +480,26 @@
         }
       ],
       "id": 7
+    },
+    {
+      "name": "Vitor",
+      "email": "vitor@gmail.com",
+      "emailConfirmation": "vitor@gmail.com",
+      "address": "Rua Tal",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 8
     }
   ]
 }
