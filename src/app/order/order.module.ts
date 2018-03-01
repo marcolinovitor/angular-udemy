@@ -5,9 +5,10 @@ import { OrderItemsComponent } from './order-items/order-items.component';
 import { OrderComponent } from './order.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LeaveOrderGuard } from './leave-order.guard';
 
 const ROUTES: Routes = [
-  { path: '', component: OrderComponent }
+  { path: '', component: OrderComponent, canDeactivate: [LeaveOrderGuard] }
 ]
 
 @NgModule({

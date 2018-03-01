@@ -1,4 +1,6 @@
+import { User } from './../security/login/user.model';
 import { Component, OnInit } from '@angular/core';
+import { LoginService } from '../security/login/login.service';
 
 @Component({
   selector: 'mt-header',
@@ -12,4 +14,5 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  
 }
